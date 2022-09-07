@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Poiret+One&display=swap"
+     rel="stylesheet"> 
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/x-icon" href="./Images/logo-full.jpg">
+</head>
+
+<body>
+    <div class="main-container">
+
+        <div class="graphic-container">
+
+            <div class="logo-container">
+
+                <img src="./Images/logo.svg" alt="Lulu Industries Logo" class="logo">
+
+                <p class="logo-text">Lulu Industries</p>
+
+            </div>
+
+            <footer class="image-credit">
+                <p>Photo and Logo by Lindsay Bestvater</p>
+            </footer>
+
+        </div>
+        
+        <div class="right-container">
+
+            <div class="top-text">
+                This is not a real online service! 
+                You know you need something like this in your life to help you 
+                realize your deepest dreams.
+                Sign up now to get started.
+
+                You know you want to.
+            </div>
+    
+            <div class="form-container">
+
+                <div class="form-">
+                    <h3>Let's do this!</h3>
+                    <form action="#" method="post">
+
+                        <div class="name">
+                            <div class="input">
+                                <label for="firstName">First Name* </label>
+                                <input type="text" id="firstName" title="Please enter your first name" required>
+                            </div>
+                            <div class="input">
+                                <label for="lastName">Last Name </label>
+                                <input type="text" id="lastName"title="Please enter your last name" required>
+                            </div>
+                        </div>
+
+                        <div class="contact">
+                            <div class="input">
+                                <label for="email">Email* </label>
+                                <input type="email" id="email" title="Please enter a valid email" required>
+                            </div>
+                            <div class="input">
+                                <label for="phone-number">Phone Number </label>
+                                <input type="tel" id="phone-number" title="Please enter a valid phone number">
+                            </div>
+                        </div>
+
+                        <div class="pass">
+                            <div class="input">
+                                <div class="password-tip">
+                                    <label for="password">Password* </label>
+                                    <div class="tooltip">?
+                                        <span class="tooltiptext">8 character min. (number, symbol, upper, lower case letter)</span>
+                                    </div>
+                                </div>
+                                
+                                <input type="password" id="password" name="password" required class="password pwd1"> 
+
+                            </div>
+                            <div class="input">
+                                <label for="confirm-password">Confirm Password*</label>
+                                <input type="password" id="confirm-password" required class="pwd2">
+                            </div>
+                           
+                        </div>
+
+                        <div>
+                            <p class="pwdLengthMsg">Password must be at least 8 characters and include one number, one symbol, one upper case letter, 
+                                one lower case letter.
+                            </p>
+
+                            <p class="pwdNoMatch">Passwords do not match!!</p>
+                        </div>
+
+                        <div class="sign-up">
+                    
+                            <button type="submit">Create Account</button>
+                        
+                            <p class="login">Already have an account? <a href="url">Log In</a></p>
+        
+                        </div>
+
+                    </form>
+        
+            </div>
+        
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
